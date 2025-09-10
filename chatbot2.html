@@ -1101,7 +1101,7 @@
                 let errorMessage = 'Error al acceder al micrófono.';
                 
                 if (error.name === 'NotAllowedError') {
-                    errorMessage = 'Permiso de micrófono denegado. Por favor, permite el acceso al micrófono.';
+                    errorMessage = 'Permiso de micrófono denegado. Por favor, permite el acceso al micrófono..';
                 } else if (error.name === 'NotFoundError') {
                     errorMessage = 'No se encontró micrófono. Verifica que tienes un micrófono conectado.';
                 } else if (error.name === 'NotSupportedError') {
